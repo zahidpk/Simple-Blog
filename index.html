@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Blog CRUD Basics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h2>Simple Blog</h2>
+      <div class="container p-0">
+        <div class="left">
+          <form id="form">
+            <label for="" class="form-label">Write your post here</label>
+            <br />
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                name=""
+                id="input"
+                style="height: 200px; width: 350px"
+              ></textarea>
+              <label for="floatingTextarea2">Post Content</label>
+            </div>
+            <div id="msg"></div>
+            <br />
+            <button type="submit" class="btn btn-dark">Post</button>
+          </form>
+        </div>
+        <div class="right">
+          <h4>Blog Posts</h4>
+          <div id="posts">
+            <!-- <div>
+          <p>Post 1</p>
+          <span class="options">
+            <i onClick="editPost(this)" class="fas fa-edit"></i>
+            <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
+          </span>
+        </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

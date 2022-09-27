@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 10px auto;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+#posts {
+  width: 400px;
+}
+
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+}
+
+i {
+  cursor: pointer;
+}
